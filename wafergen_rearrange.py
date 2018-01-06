@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 """
-This script do...
-usage: pythone ...py input > output
+This script is for converting wafergen raw result to count table.
+usage: pythone wafergen_rearrange.py [input file]  > [output file]
 """
 
 import sys
