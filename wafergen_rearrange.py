@@ -17,9 +17,7 @@ def main():
 		spl=line.strip().split('\t')
 		sample_name[spl[3]]=0
 		if dict.has_key(spl[2]):
-			temp_dict=dict[spl[2]]
-			temp_dict[spl[3]]=spl[5]
-			
+			dict[spl[2]][spl[3]]=spl[5]	
 		else:
 			dict[spl[2]]={spl[3]:spl[5]}
 	file_open.close()
